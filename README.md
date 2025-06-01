@@ -1,4 +1,4 @@
-# 台積電股價預測系統（LSTM + CNN-LSTM + GRU 集成模型）
+# 股價預測系統（LSTM + CNN-LSTM + GRU 集成模型）
 
 本專案利用深度學習結合技術指標（RSI、MACD、OBV）來預測台積電（2330.TW）股價。  
 透過 LSTM、CNN-LSTM、GRU 三種模型的集成學習（Ensemble），提升預測準確率與穩定性。
@@ -17,17 +17,15 @@
 
 ## 🧰 環境需求
 
-- Python 3.8 以上
+- Python 3.12
 
 ### 安裝必要套件
 
 ```bash
 pip install pandas numpy scikit-learn tensorflow ta matplotlib joblib openpyxl
 🗂 專案結構
-bash
-複製
-編輯
-├── stock_predictor.py            # 模型訓練與預測主程式
+
+├── LSTM_CNN_STOCK_v5.py            # 模型訓練與預測主程式
 ├── 2330_history.xlsx             # 台積電歷史股價資料（需事先取得）
 ├── ensemble_prediction_results.csv  # 預測結果（輸出）
 ├── ensemble_model_1.h5 ~ 3.h5    # 模型權重儲存檔

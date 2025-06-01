@@ -23,6 +23,7 @@
 
 ```bash
 pip install pandas numpy scikit-learn tensorflow ta matplotlib joblib openpyxl
+```bash
 🗂 專案結構
 
 ├── LSTM_CNN_STOCK_v5.py            # 模型訓練與預測主程式

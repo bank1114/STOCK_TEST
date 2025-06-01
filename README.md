@@ -23,7 +23,7 @@
 
 ```bash
 pip install pandas numpy scikit-learn tensorflow ta matplotlib joblib openpyxl
-bash
+```
 
 🗂 專案結構
 

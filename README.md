@@ -113,7 +113,7 @@ python LSTM_CNN_STOCK_v5.py
 ---
 ## 成果展示
 
-訓練loss圖:
+
 ![image](https://github.com/user-attachments/assets/140e8bd4-1361-4aad-8ae2-0ed636d25547)
 
 股市預測圖:

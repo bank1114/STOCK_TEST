@@ -28,8 +28,7 @@ pip install pandas numpy scikit-learn tensorflow ta matplotlib joblib openpyxl
 🗂 專案結構
 ```bash
 ├── LSTM_CNN_STOCK_v5.py            # 模型訓練與預測主程式
-├── 2409.TW_history.xlsx             # 友達歷史股價資料（需事先取得）
-├── ensemble_prediction_results.csv  # 預測結果（輸出）
+├── 2409.TW_history.xlsx             # 友達歷史股價資料（需事先取得））
 ├── ensemble_model_1.h5 ~ 3.h5    # 模型權重儲存檔
 ├── ensemble_scaler.save          # 特徵標準化器儲存檔
 └── README.md                     # 專案說明文件
@@ -126,9 +125,8 @@ python LSTM_CNN_STOCK_v5.py
   模型能掌握股價中長期趨勢，行情穩定時預測方向與實際相符。
 
 - **價格誤差分析**  
-  - 轉折點（如4月中旬大跌、8月初急跌、10月反彈）反應較慢，敏感度有限。  
-  - 平均日誤差約 ±10～30元，高波動期誤差可達 ±40元以上。
-
+  - 轉折點（如4月中旬大跌、8月初急跌）反應較慢，敏感度有限。  
+  
 - **高點偏保守**  
   股價創高時預測值偏低，模型不易捕捉突破行情。
 
